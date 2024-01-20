@@ -1,0 +1,111 @@
+button{
+    cursor: pointer;
+}
+.header{
+    margin: 1rem auto;
+    width: 80%;
+    height: 10vh;
+    background-color: #b8c0ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1rem;
+}
+.header__img{
+    height: 8vh;
+    object-fit: cover;
+}
+.products__container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    gap: 1rem;
+}
+.product{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 15rem;
+    height: 18rem;
+    padding: 1rem;
+    border: .1875rem solid #000;
+}
+.product button{
+    margin-top: auto;
+    background-color: #b8c0ff;
+    border: .125rem solid #000;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+.product__img{
+    height: 10rem;
+    object-fit: cover;
+}
+.cart__container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 48rem;
+    text-transform: uppercase;
+    background-color: #ccd5ae;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: .5rem;
+}
+.cart__header,
+.cart__footer{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem;
+}
+.cart__header{
+    border-bottom: 1px solid #fff;
+}
+.cart__footer{
+    border-top: 1px solid #fff;
+}
+.cart__header img{
+    width: 2rem;
+    height: 2rem;
+}
+.cart__products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cart__product,
+.cart__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: .5rem;
+}
+.cart__header h1,
+.cart__footer h2,
+.cart__product h2{
+    font-size: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+}
+.cart__button{
+    width: 2rem;
+    font-size: 2rem;
+}
+.buy__button{
+    padding: .5rem;
+    background-color: #b8c0ff;
+    border-radius: .5rem;
+}
+.delete__button{
+    font-size: 2rem;
+    border-radius: 50vmax;
+    padding: .5rem;
+    background-color: #b8c0ff;
+}
+.delete__button:hover{
+    background-color: #ccd5ae;
+}
